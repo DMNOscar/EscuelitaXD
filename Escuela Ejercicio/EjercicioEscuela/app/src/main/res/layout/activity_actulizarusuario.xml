@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.oscar.escuelaapp.RegistrarMateriaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Datos"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_margin="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edtActualizarNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="18dp"
+        android:gravity="center"
+        android:hint="Nombre " />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NickName"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edtActualizarNickName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NickName "
+        android:gravity="center"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="18dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edtActualizarPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password "
+        android:gravity="center"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="18dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegistrarAlumno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Registrar"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

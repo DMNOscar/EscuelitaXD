@@ -1,0 +1,32 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <item
+        android:id="@+id/resgistra_alumno"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_alumno"
+        android:title="Registar Alumno"/>
+
+    <item
+        android:id="@+id/resgistra_materia"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_materia"
+        android:title="Registar Materia"/>
+
+    <item
+        android:id="@+id/resgistra_calificacion"
+        android:icon="@drawable/ic_calificacion"
+        android:showAsAction="always"
+        android:title="Resgistra Calificacion"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/editar_datos"
+        android:icon="@drawable/ic_editar"
+        android:showAsAction="always"
+        android:title="Editar Datos"
+        app:showAsAction="always" />
+
+
+</menu>
